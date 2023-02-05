@@ -17,4 +17,13 @@
 -VMESS WEBSOCKET NONE TLS (80) <br>
 -VLESS WEBSOCKET NONE TLS (80) <br>
 -TROJAN WEBSOCKET NONE TLS (80) <br>
-</br>
+
+## MULTIPORT FALLBACK AUTOSCRIPT EXAMPLE
+<b>
+</b>
+<br>
+
+</b>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/82468311/216796094-5e7f5f72-1844-4d53-be50-32421f7920f2.png" width="350" title="Autoscript-Lite">
+</p>
