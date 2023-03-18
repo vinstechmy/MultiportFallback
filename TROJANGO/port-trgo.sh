@@ -14,7 +14,7 @@ echo ""
 read -p "New Port XRAY Trojan GO WS : " tr2
 
 if [ -z $tr2 ]; then
-echo "Please Input Port"
+echo "Please Insert Port !"
 exit 0
 fi
 
