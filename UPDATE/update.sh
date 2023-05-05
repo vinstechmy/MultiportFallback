@@ -31,4 +31,4 @@ rm update.sh
 serverV=$( curl -sS https://raw.githubusercontent.com/vinstechmy/MultiportFallback/main/UPDATE/version)
 echo "$serverV" > /home/ver
 echo ""
-read -n1 -r -p "Press any key to continue..." ; menu ;;
+read -n1 -r -p "Press any key to continue..." ; menu ;
