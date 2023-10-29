@@ -31,7 +31,7 @@
 ♦️ Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://cdn.discordapp.com/attachments/1065947134395949129/1083732050013585530/setup.sh && chmod +x setup.sh && ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vinstechmy/MultiportFallback/main/INSTALL/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
 
 ## MULTIPORT FALLBACK AUTOSCRIPT EXAMPLE
