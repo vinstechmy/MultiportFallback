@@ -26,6 +26,23 @@
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
  ```
+♦️ Please do below step before proceed installing autoscript to avoid menu error <br>
+
+1.Install resolvconf service
+  ```html
+ apt install resolvconf -y
+  ```
+2.Enable & start the service
+  ```html
+ systemctl enable resolvconf.service
+ systemctl start resolvconf.service
+ ```
+3.Insert dns into resolvconf
+  ```html
+ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+ echo "nameserver 8.8.8.8" >> /etc/resolvconf/resolv.conf.d/head
+ systemctl restart resolvconf.service
+  ```
 ♦️ Installation Link<br>
 
   ```html
