@@ -41,6 +41,9 @@
   ```html
  echo "nameserver 8.8.8.8" >> /etc/resolv.conf
  echo "nameserver 8.8.8.8" >> /etc/resolvconf/resolv.conf.d/head
+  ```
+4.Restart service
+  ```html
  systemctl restart resolvconf.service
   ```
 ♦️ Installation Link<br>
